@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "cherrymod:cherry_log",
+    "cherrymod:cherry_wood",
+    "cherrymod:stripped_cherry_log",
+    "cherrymod:stripped_cherry_wood",
+    "cherrymod:cherry_planks"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "creativemodetab.cherrytab": "Cherry Stuff",
+
+  "block.cherrymod.cherry_log": "Cherry Log",
+  "block.cherrymod.cherry_wood": "Cherry Wood",
+  "block.cherrymod.stripped_cherry_log": "Stripped Cherry Log",
+  "block.cherrymod.stripped_cherry_wood": "Stripped Cherry Wood",
+  "block.cherrymod.cherry_planks": "Cherry Planks",
+  "block.cherrymod.cherry_stairs": "Cherry Stairs",
+  "block.cherrymod.cherry_slab": "Cherry Slab",
+  "block.cherrymod.cherry_fence": "Cherry Fence",
+  "block.cherrymod.cherry_fence_gate": "Cherry Fence Gate",
+  "block.cherrymod.cherry_door": "Cherry Door",
+  "block.cherrymod.cherry_trapdoor": "Cherry Trapdoor",
+  "block.cherrymod.cherry_pressure_plate": "Cherry Pressure Plate",
+  "block.cherrymod.cherry_button": "Cherry Button",
+  "block.cherrymod.cherry_leaves": "Cherry Leaves",
+  "block.cherrymod.cherry_sapling": "Cherry Sapling",
+  "item.cherrymod.cherry_sign": "Cherry Sign",
+  "item.cherrymod.cherry_hanging_sign": "Cherry Hanging Sign",
+  "item.cherrymod.cherry_boat": "Cherry Boat",
+  "item.cherrymod.cherry_boat_with_chest": "Cherry Boat with Chest"
+}
