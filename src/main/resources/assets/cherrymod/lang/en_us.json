@@ -16,8 +16,12 @@
   "block.cherrymod.cherry_button": "Cherry Button",
   "block.cherrymod.cherry_leaves": "Cherry Leaves",
   "block.cherrymod.cherry_sapling": "Cherry Sapling",
-  "item.cherrymod.cherry_sign": "Cherry Sign",
-  "item.cherrymod.cherry_hanging_sign": "Cherry Hanging Sign",
+  "item.cherrymod.cherry_sign_item": "Cherry Sign",
+  "block.cherrymod.cherry_sign": "Cherry Sign",
+  "block.cherrymod.cherry_wall_sign": "Cherry Sign",
+  "item.cherrymod.cherry_hanging_sign_item": "Cherry Hanging Sign",
+  "block.cherrymod.cherry_hanging_sign": "Cherry Hanging Sign",
+  "block.cherrymod.cherry_hanging_wall_sign": "Cherry Hanging Sign",
   "item.cherrymod.cherry_boat": "Cherry Boat",
   "item.cherrymod.cherry_boat_with_chest": "Cherry Boat with Chest"
 }

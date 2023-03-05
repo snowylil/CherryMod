@@ -2,6 +2,8 @@ package net.snowylil.cherrymod;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
@@ -68,10 +70,12 @@ public class CherryMod {
             event.accept(CherryBlocks.CHERRY_BUTTON);
             event.accept(CherryBlocks.CHERRY_LEAVES);
             event.accept(CherryBlocks.CHERRY_SAPLING);
-//            event.accept(CherryItems.CHERRY_SIGN);
-//            event.accept(CherryItems.CHERRY_HANGING_SIGN);
-//            event.accept(CherryItems.CHERRY_BOAT);
-//            event.accept(CherryItems.CHERRY_CHEST_BOAT);
+            event.accept(CherryBlocks.CHERRY_SIGN);
+            event.accept(CherryBlocks.CHERRY_HANGING_SIGN);
+            event.accept(CherryItems.CHERRY_SIGN_ITEM);
+            event.accept(CherryItems.CHERRY_HANGING_SIGN_ITEM);
+        //    event.accept(CherryItems.CHERRY_BOAT);
+        //    event.accept(CherryItems.CHERRY_CHEST_BOAT);
         }
         if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(CherryBlocks.CHERRY_LOG);
@@ -94,12 +98,14 @@ public class CherryMod {
             event.accept(CherryBlocks.CHERRY_SAPLING);
         }
         if(event.getTab() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
-//            event.accept(CherryItems.CHERRY_SIGN);
-//            event.accept(CherryItems.CHERRY_HANGING_SIGN);
+            event.accept(CherryBlocks.CHERRY_SIGN);
+            event.accept(CherryBlocks.CHERRY_HANGING_SIGN);
+            event.accept(CherryItems.CHERRY_SIGN_ITEM);
+            event.accept(CherryItems.CHERRY_HANGING_SIGN_ITEM);
         }
         if(event.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-//            event.accept(CherryItems.CHERRY_BOAT);
-//            event.accept(CherryItems.CHERRY_CHEST_BOAT);
+        //    event.accept(CherryItems.CHERRY_BOAT);
+        //    event.accept(CherryItems.CHERRY_CHEST_BOAT);
         }
 
     }

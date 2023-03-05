@@ -1,4 +1,4 @@
-package net.snowylil.cherrymod.item.custom;
+package net.snowylil.cherrymod.block.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
